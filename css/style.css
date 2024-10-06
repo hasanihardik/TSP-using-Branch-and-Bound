@@ -160,14 +160,14 @@ body {
 }
 
 .algorithm {
-    float: left;
+    float: center;
     background-color: white;
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     padding: 15px;
-    display: block;
+    display: flex;
+    justify-content: center;
     overflow: hidden;
-    width: 45%;
     text-align: center;
     box-sizing: border-box;
     margin-right: 5%;
