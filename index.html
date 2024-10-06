@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Index page</title>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/vis.min.js"></script>
+    <script type="text/javascript" src="js/queue.js"></script>
+    <script type="text/javascript" src="js/options.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=cyrillic" rel="stylesheet" referrerpolicy="origin">
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id = "gradientCon">
+        <div id="gradient"></div>
+        <script>
+            $('#gradient').css('background-position', randomInt(-10000,0) + 'px 0px');
+        </script>
+    </div>
+    <div class="main-column">
+        <div class="header index">Travelling Salesman Problem Solver</div>
+        <div class="algorithms">
+            <a class="algorithm" href="branch-and-bound.html">
+                Branch and Bound
+            </a>
+            <a class="algorithm" href="annealing.html">
+                Simulated Annealing
+            </a>
+        </div>
+    </div>
+</body>
+</html>
